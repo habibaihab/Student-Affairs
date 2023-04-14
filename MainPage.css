@@ -1,0 +1,86 @@
+body{
+    background-image: url("MainPage.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.SA{
+    background-color: #ffffff;
+    margin-left: 300px;
+    margin-top: 90px;
+    border-radius: 25px;
+    border-width: 0px;
+    position: fixed;
+    width: 270px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1c1f4c;
+    font-family:sans-serif;
+}
+.LAB{
+    background-color: #ffffff;
+    margin-left: 530px;
+    margin-top: 250px;
+    border-radius: 25px;
+    border-width: 0px;
+    position: fixed;
+    width: 270px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1c1f4c;
+    font-family:sans-serif;
+}
+.HS{
+    background-color: #ffffff;
+    margin-left: 860px;
+    margin-top: 380px;
+    border-radius: 25px;
+    border-width: 0px;
+    position: fixed;
+    width: 270px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1c1f4c;
+    font-family:sans-serif;
+}
+.HR{
+    background-color: #ffffff;
+    margin-left: 1180px;
+    margin-top: 520px;
+    border-radius: 25px;
+    border-width: 0px;
+    position: fixed;
+    width: 270px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1c1f4c;
+    font-family:sans-serif;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

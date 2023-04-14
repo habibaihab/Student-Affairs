@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel = "shortcut icon" type = "x-icon" href = "Icon.png">
+        <link rel = "stylesheet" href = "NavBar&BG.css">
+        <script src="SearchAct.js"></script>
+        <link rel="stylesheet" href="SearchAct.css">
+    </head>
+    <body>
+        <nav>
+            <div>
+                <div><a href = "HomePageSA.html"><img class = "logo" src = "Logo.png"></a></div>
+            </div>
+            <ul>
+                <li><a href = "HomePageSA.html" target = "_blank">HOME</a></li>
+                <li><a href = "AddStudent.html" target = "_blank">REGISTER</a></li>
+                <li><a href = "Update&Delete.html" target = "_blank">UPDATE/DELETE</a></li>
+                <li><a href = "SearchAct.html"target = "_blank">SEARCH FOR ACT STDs</a></li>
+                <li><a href = "AssignDep.html"target = "_blank">ASSIGN DEP</a></li>
+                <li><a href = "View_Act_Inact.html"target = "_blank">VIEW ACT/INACT STDs</a></li>
+                <li><a href = "ChangeStatus.html"target = "_blank">CHANGE STATUS</a></li>
+            </ul>
+        </nav>
+        <h2>Search For Active Students</h2>
+        <form>
+            <div>
+                <label for="name">Enter the Keyword to Search:</label>
+                <input type="text" id="name">
+            </div>
+            <input type="button" value="Search" onclick="searchStudent()">
+          </form>
+          <div id="result"></div>
+    </body>
+</html>

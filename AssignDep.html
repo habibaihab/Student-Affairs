@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel = "shortcut icon" type = "x-icon" href = "Icon.png">
+        <link rel = "stylesheet" href = "NavBar&BG.css">
+        <link rel = "stylesheet" href = "AssignDep.css">
+        <script src = "AssignDep.js"></script>
+        
+    </head>
+    <body>
+        <nav>
+            <div>
+                <div><a href = "HomePageSA.html" target="_blank"><img  class = "logo" src = "Logo.png"></a></div>
+            </div>
+            <ul>
+                <li><a href = "HomePageSA.html" target = "_blank">HOME</a></li>
+                <li><a href = "AddStudent.html" target = "_blank">REGISTER</a></li>
+                <li><a href = "Update&Delete.html" target = "_blank">UPDATE/DELETE</a></li>
+                <li><a href = "SearchAct.html"target = "_blank">SEARCH FOR ACT STDs</a></li>
+                <li><a href = "AssignDep.html"target = "_blank">ASSIGN DEP</a></li>
+                <li><a href = "View_Act_Inact.html"target = "_blank">VIEW ACT/INACT STDs</a></li>
+                <li><a href = "ChangeStatus.html"target = "_blank">CHANGE STATUS</a></li>
+            </ul>
+        </nav>
+        <div class = "container1">
+            <div>
+                <h2 class = "grad1">Assign Department</h2>
+                <p class = "grad2">Enter the Student's Information:</p>
+                <form onsubmit="return CallFunction()">
+                    <div>
+                        <label>ID</label>
+                        <input id = "ID" type = "number" name = "ID" required>
+                    </div>
+        
+                    <div>
+                        <label>Department</label>
+                        <select id = "dep" required>
+                            <option value = "" selected>--Choose a Department--</option>
+                            <option value = "IS">IS</option>
+                            <option value = "CS">CS</option>
+                            <option value = "IT">IT</option>
+                            <option value = "DS">DS</option>
+                            <option value = "AI">AI</option>
+                        </select>
+                    </div>
+                    <br>
+                    <button class = "sub" type = "submit">Assign</button>
+                    <button class = "res" type = "reset">Reset</button>
+                </form>
+            </div>
+        </div>
+        <br><br>
+        <script src = "Student.js"></script>
+        <script src = "Array.js"></script>
+        <script src = "AssignDep.js"></script>
+        <p class = "copyright">Copyright &copy; 2023 Student Affairs.</p>
+    </body>
+</html>

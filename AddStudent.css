@@ -1,0 +1,111 @@
+.container1 {
+    width: 50%;
+    margin-top:20px;
+    margin-left: 350px;
+    background-color: rgb(244, 240, 238);
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(28,31,76,0.7);
+}
+
+label {
+    display: inline-block;
+    width:100px;
+    margin-left: 90px;
+    margin-top: 0px;
+    text-align: right;
+    color: rgb(28, 31, 76);
+    font-size: 17px;
+    font-weight:bold;
+    font-family: garamond;
+    padding: 6px;
+}
+input,select {
+    width: 50%;
+    margin-left: 10px;
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(white, white),
+    linear-gradient(to right, #1c1f4c, #33aaac);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+button{
+    color:#ffffff;
+    font-family: garamond;
+    font-weight: bold;
+    font-size: 17px;
+    border: double 3px transparent;
+    width:100px;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #1c1f4c, #33aaac);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+button.sub{
+    margin-left: 550px;
+}
+button.res{
+    margin-left: 0px;
+}
+button.sub:hover, button.res:hover{
+    font-size: 18px;
+    background: linear-gradient(to right,#1c1f4c, #33aaac);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: 0;
+}
+h2{
+    font-family: garamond;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    color:#ffffff;
+    border-radius: 15px;
+    display: block;
+    padding: 7px;
+    /*align:center;*/
+}
+#phone{
+    width: 44%;
+    margin-left: 10px;
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(white, white),
+    linear-gradient(to right, #1c1f4c, #33aaac);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+
+}
+#short{
+    width: 3%;
+    margin-left: 10px;
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(white, white),
+    linear-gradient(to right, #1c1f4c, #33aaac);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+}
+p{
+    font-family: garamond;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 0px;
+    color:#ffffff;
+    border-radius: 15px;
+    display: block;
+    padding: 5px;
+}
+.grad1{
+    background-image: linear-gradient(to right, #1c1f4c, #33aaac);
+    width: 200px;
+    height: 26px;
+}
+.grad2{
+    background-image: linear-gradient(to right, #1c1f4c, #33aaac);
+    width: 310px;
+    height: 20px;
+}

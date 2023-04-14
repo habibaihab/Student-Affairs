@@ -1,0 +1,43 @@
+table {
+    background-color: #f1eeec;
+    border-style: none;
+    width: 100%;
+
+}
+
+table td {
+    margin: 5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+table thead td {
+    background-image: linear-gradient(to left,#33aaac ,#1c1f4c );
+    color: ghostwhite;
+}
+
+table tr:hover{
+    background-color: ghostwhite;
+}
+
+body{
+    font-family: garamond;
+    color:#243763
+}
+
+h2{
+    color:#243763;
+    margin-left: 10px;
+
+}
+
+h2.header{
+    background-image: linear-gradient(to left,#33aaac ,#1c1f4c );
+    color: ghostwhite;
+    width:320px;
+    border-radius: 50px;
+    padding:5px;
+    height:30px;
+    margin-left: 5px;;
+
+}

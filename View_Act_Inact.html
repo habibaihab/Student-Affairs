@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel = "shortcut icon" type = "x-icon" href = "Icon.png">
+    <link rel = "stylesheet" href = "NavBar&BG.css">
+    <link rel = "stylesheet" href = "View_Act_Inact.css">
+
+
+</head>
+<body>
+<nav>
+    <div>
+        <div><a href = "HomePageSA.html"><img class = "logo" src = "Logo.png"></a></div>
+    </div>
+    <ul>
+        <li><a href = "HomePageSA.html" target = "_blank">HOME</a></li>
+        <li><a href = "AddStudent.html" target = "_blank">REGISTER</a></li>
+        <li><a href = "Update&Delete.html" target = "_blank">UPDATE/DELETE</a></li>
+        <li><a href = "SearchAct.html"target = "_blank">SEARCH FOR ACT STDs</a></li>
+        <li><a href = "AssignDep.html"target = "_blank">ASSIGN DEP</a></li>
+        <li><a href = "View_Act_Inact.html"target = "_blank">VIEW ACT/IN-ACT STDs</a></li>
+        <li><a href = "ChangeStatus.html"target = "_blank">CHANGE STATUS</a></li>
+    </ul>
+</nav>
+<h2 class="header">View Active/Inactive Students</h2>
+<h2>Active Students</h2>
+<table class="Activetable">
+    <thead>
+    <tr>
+        <td>ID</td>
+        <td>NAME</td>
+        <td>GPA</td>
+        <td>LEVEL</td>
+        <td>DEPARTMENT</td>
+        <td>EMAIL</td>
+        <td>PHONE NUMBER</td>
+        <td>DATE OF BIRTH</td>
+        <td>GENDER</td>
+    </tr>
+    </thead>
+    <tbody class="active">
+    </tbody>
+</table>
+<br><br><br>
+<h2>Inactive Students</h2>
+<table class = "Inactivetable">
+    <thead>
+    <tr>
+        <td>ID</td>
+        <td>NAME</td>
+        <td>GPA</td>
+        <td>LEVEL</td>
+        <td>DEPARTMENT</td>
+        <td>EMAIL</td>
+        <td>PHONE NUMBER</td>
+        <td>DATE OF BIRTH</td>
+        <td>GENDER</td>
+    </tr>
+    </thead>
+    <tbody class="inActive"></tbody>
+</table>
+<script src = "View_Act_Inact.js"></script>
+<script src="Student.js"></script>
+<script src="Array.js"></script>
+<script src="ChangeStatus.js"></script>
+</body>
+<footer>
+    <p>Copyright &copy; 2023 FCAI students.</p>
+</footer>
+</html>

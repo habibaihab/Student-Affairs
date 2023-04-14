@@ -1,0 +1,94 @@
+form {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #1c1f4c;
+    font-family: garamond;
+    font-weight: bold;
+    font-size: 20px;
+}
+form {
+  display: inline-block;
+  vertical-align: middle;
+}
+  
+ 
+input[type="button"] {
+  background-image: linear-gradient(to right, #1c1f4c, #33aaac);
+  border: none;
+  color: white;
+  padding: 4px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 17px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: garamond;
+  font-weight: bold;
+}
+input[type="button"]:hover{
+  font-size: 18px;
+  background: linear-gradient(to right,#1c1f4c, #33aaac);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: 0;
+}
+  
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 17px;
+}
+  
+th {
+  text-align: left;
+  background-image: linear-gradient(to right, #1c1f4c, #33aaac);
+  padding: 8px;
+  color: #ffffff;
+  font-family: garamond;
+  font-weight: bold;
+  
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  color: #1c1f4c;
+  padding: 8px;
+  font-family: garamond;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+h2{
+  background-image: linear-gradient(to right, #1c1f4c, #33aaac);
+  width: 300px;
+  height: 26px;
+  font-family: garamond;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  color:#ffffff;
+  border-radius: 15px;
+  display: block;
+  padding: 5px;
+}
+#result{
+  color: crimson;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#name{
+    margin-left: 10px;
+    border: double 3px transparent;
+    border-radius: 6px;
+    background-image: linear-gradient(white, white), 
+                        linear-gradient(to right, #1c1f4c, #33aaac);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
